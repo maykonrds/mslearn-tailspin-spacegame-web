@@ -48,7 +48,7 @@ steps:
      sonar.exclusions=**/wwwroot/lib/**/*
 
      - task: DotNetCoreCLI@2
-  displayName: 'Build the project - $(buildConfiguration)'
+  displayName: 'Build the projectt - $(buildConfiguration)'
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration $(buildConfiguration)'
